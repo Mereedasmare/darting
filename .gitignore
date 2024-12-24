@@ -1,0 +1,15 @@
+# Flutter/Dart-specific
+.dart_tool/
+.pub-cache/
+build/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Lock file (optional, based on your preference)
+pubspec.lock
