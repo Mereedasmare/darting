@@ -1,15 +1,29 @@
 # Flutter/Dart-specific
-.dart_tool/
-.pub-cache/
-build/
+.dart_tool/       # Dart toolchain-related files
+.pub-cache/       # Package cache
+build/            # Build output directory
 
-# IDE files
-.idea/
-.vscode/
+# Flutter specific (for iOS/Android builds)
+ios/              # iOS project files (if you're not working on iOS app development)
+android/          # Android project files (if you're not working on Android app development)
+
+# IDE/editor-specific files
+.idea/            # IntelliJ/Android Studio files
+.vscode/          # VS Code files
 
 # OS-specific files
-.DS_Store
-Thumbs.db
+.DS_Store         # macOS Finder metadata
+Thumbs.db         # Windows Thumbnails
 
-# Lock file (optional, based on your preference)
-pubspec.lock
+# Gradle-related files (if you're using Flutter for Android)
+gradle/           # Gradle wrapper files
+*.log             # Log files
+
+# Sensitive information
+*.env             # Environment configuration files (for storing sensitive keys)
+
+# Pub-related files
+pubspec.lock      # Lock file (optional, based on your preferences)
+
+# Dart and Flutter tooling
+*.dart_tool/      # Generated Dart tool files
