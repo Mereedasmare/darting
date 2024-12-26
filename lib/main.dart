@@ -6,7 +6,6 @@ String getName(firstName) {
 
 void main() {
   runApp(MyApp());
-  runapp(thisapp);
 }
 
 class MyApp extends StatelessWidget {
